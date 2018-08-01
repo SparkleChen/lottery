@@ -796,5 +796,12 @@
         },
         "name": "龚慧",
         "avatar": "./image/龚慧 michelle.png"
+    },
+    {
+        "data": {
+            "company": "Ella"
+        },
+        "name": "吴成娟",
+        "avatar": "./image/吴成娟 Ella.jpeg"
     }
 ]
