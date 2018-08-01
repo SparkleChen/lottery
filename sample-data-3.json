@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Maybell Fegley",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg",
+        "data": {
+            "company": "Alibaba",
+            "title": "Engineer"
+        }
+    },
+    {
+        "name": "Eldridge Riojas",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/iannnnn/128.jpg",
+        "data": {
+            "company": "Baidu",
+            "title": "Engineer"
+        }
+    },
+    {
+        "name": "Richard Hendricks",
+        "avatar": "http://www.piedpiper.com/app/themes/pied-piper/dist/images/richard.png",
+        "data": {
+            "company": "Pied Piper",
+            "title": "Engineer"
+        }
+    }
+]
