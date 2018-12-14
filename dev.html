@@ -20,22 +20,35 @@
 
     <!-- Zepto or jQuery -->
     <script src="https://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script>
-<!--
+    <!--
     <link rel="stylesheet" href="./dist/lottery.min.css" />
     <script src="./dist/lottery.compact.min.js.1"></script>
--->
-    <!-- <script src="./dist/lottery.compact.min.js"></script> -->
+     <script src="./dist/lottery.compact.min.js"></script>
+    -->
     <script src="./vendor/confetti.js"></script>
     <script src="./vendor/move.min.js"></script>
     <script src="./vendor/material-avatar.js"></script>
     <script src="./src/lottery.js"></script>
     <link rel="stylesheet" href="./src/lottery.css" />
-
     <!-- ROCK ON -->
     <script>
       $.lottery({
         el: '.lotterybox',
-        api: './sample-data.json',
+        // api: './sample-data.json', 开发模式下不设置
+        data:[{
+        "data": {
+            "company": "Caroline"
+        },
+        "name": "万景芮",
+        "avatar": "./public/image/万景芮 Caroline.jpg"
+        },
+        {
+        "data": {
+            "company": "Fiona"
+        },
+        "name": "尹英",
+        "avatar": "./public/image/尹英 Fiona.jpg"
+        }],
         once: true,
         title: "name",
         subtitle: "company",
