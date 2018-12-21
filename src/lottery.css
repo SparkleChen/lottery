@@ -33,7 +33,10 @@
 		margin: 18px;
 	}
 
-	.is-mac .dh-icon-dice {
+	/* .is-mac .dh-icon-dice {
+		line-height: 65px;
+  } */
+  .dh-icon-dice {
 		line-height: 65px;
 	}
 
@@ -53,7 +56,7 @@
 		height: 200px;
 		width: 120px;
 	}
-	.is-mac .button .dh-icon {
+	/* .is-mac .button .dh-icon {
 		font-size: 40px;
 	}
 
@@ -61,6 +64,16 @@
 		font-size: 80px;
 	}
 	.is-mac .dh-icon > svg {
+		display: none;
+  } */
+  .button .dh-icon {
+		font-size: 40px;
+	}
+
+	.dh-icon {
+		font-size: 80px;
+	}
+	.dh-icon > svg {
 		display: none;
 	}
 
