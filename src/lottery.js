@@ -337,15 +337,16 @@
       lotteryOnce(selector);
       return false;
     }
-    
-    //-------------------------------------------------------------------------------------------------------------------------------------------------
-    if(targetIndex != 46 && targetIndex !=87){
       moveToTarget(selector,targetIndex);
       currentTarget.push(targetIndex);
-    }else{
-      lotteryOnce(selector);
-      return false;
-    }
+    //-------------------------------------------------------------------------------------------------------------------------------------------------
+    // if(targetIndex != 46 && targetIndex !=87){
+    //   moveToTarget(selector,targetIndex);
+    //   currentTarget.push(targetIndex);
+    // }else{
+    //   lotteryOnce(selector);
+    //   return false;
+    // }
   }
 
   var stopLottery = function(){
