@@ -34,7 +34,7 @@
 	}
 
 	.is-mac .dh-icon-dice {
-		line-height: 105px;
+		line-height: 65px;
 	}
 
 	.dh-icon-dice > svg {
@@ -43,7 +43,10 @@
 
 	.dh-icon-okay > svg {
 		color: #FFD860;
-	}
+  }
+  .dh-icon-okay {
+    line-height: 65px
+  }
 
 	.dh-icon-crown > svg {
 		margin: 8px;
@@ -51,7 +54,7 @@
 		width: 120px;
 	}
 	.is-mac .button .dh-icon {
-		font-size: 58px;
+		font-size: 40px;
 	}
 
 	.is-mac .dh-icon {
@@ -139,7 +142,7 @@
 }
 
 .dh-lottery .actions {
-	position: absolute;
+	position: fixed;
 	right: 20px;
 	bottom: 20px;
 	display: flex;
@@ -147,8 +150,8 @@
 
 .dh-lottery .actions .button {
 	display: block;
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 	line-height: 100px;
 	text-align: center;
 	border-radius: 80px;

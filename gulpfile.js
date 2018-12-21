@@ -16,7 +16,7 @@ gulp.task('compactJs', function(){
         this.emit('end');
     }))
     .pipe(concat('lottery.compact.min.js'))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('public/'))
 });
 
 gulp.task('minJs', function(){
@@ -27,14 +27,14 @@ gulp.task('minJs', function(){
         this.emit('end');
     }))
     .pipe(rename('lottery.min.js'))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('public/'))
 });
 
 gulp.task('styles', function(){
     return gulp.src('src/*.css')
     .pipe(minifyCSS())
     .pipe(concat('lottery.min.css'))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('public/'))
 });
 
 gulp.task('default', ['styles', 'minJs', 'compactJs']);
