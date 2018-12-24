@@ -957,5 +957,19 @@
     },
     "name": "黄辉",
     "avatar": "./image/黄辉 Wilson.jpg"
+  },
+  {
+    "data": {
+      "company": "Nicky"
+    },
+    "name": "曾吴琦",
+    "avatar": "./image/曾吴琦 Nicky.jpg"
+  },
+  {
+    "data": {
+      "company": "Crystal"
+    },
+    "name": "周云捷",
+    "avatar": "./image/周云捷 Crystal.jpg"
   }
 ]
