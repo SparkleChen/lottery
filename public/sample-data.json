@@ -971,5 +971,12 @@
     },
     "name": "周云捷",
     "avatar": "./image/周云捷 Crystal.jpg"
+  },
+  {
+    "data": {
+      "company": "Crystal"
+    },
+    "name": "陈思百",
+    "avatar": "./image/陈思百 Spencer.png"
   }
 ]
